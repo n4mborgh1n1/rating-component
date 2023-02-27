@@ -1,0 +1,154 @@
+body {
+    background-color: hsl(216, 12%, 8%);
+    color: rgb(255, 255, 255);
+    font-family: 'Overpass', sans-serif;
+
+}
+
+.container {
+    width: 350px;
+    height: 360px;
+    background-color: hsl(214, 22%, 15%);
+    margin: auto;
+    padding: 30px;
+    transform: translateY(35%);
+    border-radius: 30px;
+}
+
+.result-page h1 {
+  margin: 35px 0 -5px 0;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
+.ratingForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.flexRadio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+button {
+    color: white;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 50px;
+    padding: 15px 140px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 10px 0 0 0;
+    cursor: pointer;
+}
+
+
+.hidden {
+    display: none;
+  }
+
+.rating input[type="radio"] {
+    display: none;
+  }
+  
+  .rating label {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background-color: hsla(216, 12%, 54%, 0.121);
+    margin-right: 25px;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    cursor: pointer;
+  }
+  
+  .rating input[type="radio"]:checked + label {
+    background-color: hsl(217, 12%, 63%);
+    transition: none; 
+  }
+  
+
+  .rating label:hover {
+    background-color: hsl(25, 97%, 53%);
+    transition: background-color 0.5s ease-in-out;
+  }
+
+button:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    transition: background-color 0.5s ease-in-out;
+  } 
+
+  .iconStar {
+    padding: 18px;
+    background-color: hsla(216, 12%, 54%, 0.121);
+    border-radius: 50%;
+  }
+  
+  .result-page {
+    width: 350px;
+    height: 360px;
+    background-color: hsl(214, 22%, 15%);
+    margin: auto;
+    padding: 30px;
+    transform: translateY(35%);
+    border-radius: 30px;
+    text-align: center;
+}
+
+.result-page h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+
+.ratingResult {
+  color:hsl(25, 97%, 53%);
+  background-color: hsla(216, 12%, 54%, 0.177);
+  font-weight: 400;
+  padding: 8px 20px;
+  display: inline-block;
+  border-radius: 50px;
+}
+
+.tyImg {
+  margin: 15px 0 30px 0;
+}
+
+
+ 
+@media only screen and (max-width: 375px) {
+
+      .container, .result-page {
+        scale: 100%;
+      }
+
+      .container p {
+        padding-right: 1.25rem;
+      }
+
+
+}
