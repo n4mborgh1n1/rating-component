@@ -144,6 +144,11 @@ button:hover {
 
       .container, .result-page {
         scale: 80%;
+        width: 350px;
+        height: 360px;
+        padding: 30px;
+        margin: auto;
+    
       }
 
       .container p {
