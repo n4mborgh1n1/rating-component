@@ -143,11 +143,9 @@ button:hover {
 @media only screen and (max-width: 575px) {
 
       .container, .result-page {
-        scale: 90%;
-        width: 350px;
-        height: 360px;
-        padding: 30px;
-        margin: auto;
+        scale: 80%;
+        position: relative;
+        right: 20px;
     
       }
 
